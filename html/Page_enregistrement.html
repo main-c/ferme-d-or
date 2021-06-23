@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/form.css">
+    
+    <title>FormulaireEnregistremet</title>
+</head>
+
+<header>
+    <div class="barreNavigation">
+        <img src="../img/logo.png" alt="Logo" width="100px" height="100px">
+        <font size="10px">La Ferme D'Or</font>
+        <nav>
+            <a href="acceuil.html" class="lienNavigation">Acceuil</a>
+            <a href="bergerie.html" class="lienNavigation">Bergerie</a>
+            <a href="porcherie.html" class="lienNavigation">Porcherie</a>
+            <a href="poulailler.html" class="lienNavigation">Poulailler</a>
+        </nav>
+    </div>
+</header>
+
+<body>
+    <form method="post" action="traitement.php" class="formulaire">
+        <p>
+            <img src="../img/logo.png" alt="">
+            <p>
+                <label for="Nom">Nom </label>
+                <input type="text" name="Nom" id="Nom" placeholder=" Gourain" size="30" maxlength="10" required/>
+
+            </p>
+
+            <p>
+                <label for="Prénom">Prénom </label>
+                <input type="text" name="Prénom" id="Prénom" placeholder=" Tite" size="30" maxlength="10" />
+
+            </p>
+            <p>
+                <label for="Login">Login </label>
+                <input type="text" name="Login" id="Login" placeholder=" gouraintite" size="30" maxlength="10" required/>
+
+            </p>
+            <label for="password"> Mot de Passe </label>
+            <input type="password" name="password" id="password" required>
+        </p>
+        <label for="Region"> Quel est votre région d'origine</label><br>
+        <select name="Region" id="Region">
+                <option value="ENord">Extrême Nord</option>
+                <option value="Nord">Nord</option>
+                <option value="Adamaoua">Adamaoua</option>
+                <option value="Centre">Centre</option>
+                <option value="Ouest">Ouest</option>
+                <option value="NordOUest">Nord Ouest</option>
+                <option value="SudOUest">Sud Ouest</option>
+                <option value="Littoral">Littoral</option>
+                <option value="Sud">Sud</option>
+                <option value="Est">Est</option>
+            </select>
+        <p>
+            <label for="Departement">Departement </label>
+            <input type="text" name="Departement" id="Departement" placeholder=" Menoua" size="30" maxlength="40" />
+
+        </p>
+        <p>
+            <label for="Arrondissement">Arrondissement </label>
+            <input type="text" name="Arrondissement" id="Arrondissement" placeholder=" Mfoundi" size="30" maxlength="40" />
+
+        </p>
+        <p>
+            <input type="submit" value="Envoyer" class="submit" />
+        </p>
+    </form>
+
+<footer>
+    <div class="foot">copyright@2021-GroupeView</div>
+</footer>
+
+</body>
+</html>
