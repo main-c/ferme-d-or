@@ -19,12 +19,12 @@ body {
     position: center;
     justify-content: center;
     background-color: rgb(70, 4, 4);
-    margin-top: 1%;
+    margin-top: 3%;
     margin-left: 37%;
     padding-left: 2%;
     padding-right: 2%;
     border-radius: 8px;
-    box-shadow: 6px 10px 10px #ab5d5d;
+    box-shadow: 6px 10px 10px #d67c7c;
 }
 
 input {
@@ -65,16 +65,35 @@ img {
     border-radius: 50%;
     height: 100px;
 }
+.barreNavigation{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 2px 3px 3px #c8bfbf;
+    background-color: white;
+    padding-top: 20px;
+}
+.lienNavigation{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 7px;
+    color: rgb(70, 4, 4);
+    box-shadow: 2px 3px 3px rgb(70, 4, 4);
+    transition: 1s;
+}
+.lienNavigation:hover{
+    color: white;
+    background-color: rgba(70, 4, 4, 0.801);
+}
 
 .submit {
     width: 150px;
     height: 50px;
     top: 10px;
     margin: auto;
+    padding: auto;
     position: relative;
     display: flex;
     justify-content: center;
-    background-color: rgba(148, 8, 8, 0.836);
     border-color: 2px rosybrown;
     border-width: 3px;
     text-decoration: none;
@@ -88,15 +107,17 @@ img {
 :required::before {
     border: 1px solid red;
 }
-footer{
-    position:absolute;
-    justify-content: space-evenly
-}
-.foot{
-    
-    display: flex;
+
+.foot{ 
     position: relative;
     width: 100%;
+    top: 20 cm;
     height: auto;
     margin-bottom: 0;
+}
+footer{
+    background-color: rgb(70, 4, 4);
+    padding: 20px;
+    padding-left: 35%;
+    margin-top: 20cm;
 }

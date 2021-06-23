@@ -8,6 +8,7 @@ a{
     display: flex;
     justify-content: space-around;
     box-shadow: 2px 3px 3px #c8bfbf;
+    background-color: white;
     padding-top: 20px;
 }
 .lienNavigation{
@@ -16,10 +17,11 @@ a{
     border-radius: 7px;
     color: rgb(70, 4, 4);
     box-shadow: 2px 3px 3px rgb(70, 4, 4);
+    transition: 1s;
 }
 .lienNavigation:hover{
     color: white;
-    background-color: rgb(70, 4, 4);
+    background-color: rgba(70, 4, 4, 0.801);
 }
 .banniere{
     background-color: rgb(70, 4, 4);
@@ -83,4 +85,5 @@ footer{
     background-color: rgb(70, 4, 4);
     padding: 20px;
     padding-left: 35%;
+    margin-top: 20cm;
 }
